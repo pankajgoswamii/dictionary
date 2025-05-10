@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    background-color: rgba(248, 242, 242, 0.8);
+    padding:28px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.heading{
+    font-size: 38px;
+}
+.input{
+    height: 53px;
+    width: 300px;
+    background-color: rgba(248, 242, 242, 0.8);
+    border-color: rgba(132, 117, 117, 0.8);
+    font-size: 18px;
+    padding: 0 42px;
+    border-radius: 6px;
+}
+.meaning-container{
+    display: none;
+}
